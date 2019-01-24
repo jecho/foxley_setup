@@ -20,6 +20,7 @@ brew install watch
 brew install kubernetes-cli
 brew install kubernetes-helm
 brew install kustomize
+brew install awscli
 brew tap wallix/awless
 brew install awless
 
