@@ -41,8 +41,6 @@ brew cask install visual-studio-code
 brew cask install google-chrome
 
 cd $HOME/staging
-curl https://sdk.cloud.google.com | bash
-
 
 curl -L https://git.io/getLatestIstio | sh -
 chmod +x $HOME/staging/istio-1.0.5/bin/istioctl
