@@ -10,6 +10,8 @@ hdiutil detach /Volumes/Docker/
 # brew list
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
+brew install cask
+brew update
 brew tap caskroom/cask
 brew cask install spectacle
 brew install wget
@@ -36,6 +38,7 @@ brew install awless
 brew install weaveworks/tap/eksctl
 brew cask install slack
 brew cask install visual-studio-code
+brew cask install google-chrome
 
 cd $HOME/staging
 curl https://sdk.cloud.google.com | bash
