@@ -33,6 +33,7 @@ brew install kustomize
 brew install awscli
 brew tap wallix/awless
 brew install awless
+brew install weaveworks/tap/eksctl
 
 cd $HOME/staging
 curl -L https://git.io/getLatestIstio | sh -
