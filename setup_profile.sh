@@ -2,6 +2,9 @@ mkdir -p $HOME/staging
 
 # brew list
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew tap caskroom/cask
+brew cask install spectacle
 brew install wget
 brew install git 
 brew install go
@@ -24,7 +27,6 @@ brew install awscli
 brew tap wallix/awless
 brew install awless
 
-# setup istioctl
 cd $HOME/staging
 curl -L https://git.io/getLatestIstio | sh -
 chmod +x $HOME/staging/istio-1.0.5/bin/istioctl
