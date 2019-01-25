@@ -1,5 +1,12 @@
 mkdir -p $HOME/staging
 
+# install docker
+curl -o Docker.dmg https://download.docker.com/mac/stable/Docker.dmg
+hdiutil attach Docker.dmg
+cd /Volumes/Docker/
+mv -R Docker.app /Applications/Docker.app
+hdiutil detach /Volumes/Docker/
+
 # brew list
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
