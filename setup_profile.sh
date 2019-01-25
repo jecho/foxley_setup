@@ -34,8 +34,13 @@ brew install awscli
 brew tap wallix/awless
 brew install awless
 brew install weaveworks/tap/eksctl
+brew cask install slack
+brew cask install visual-studio-code
 
 cd $HOME/staging
+curl https://sdk.cloud.google.com | bash
+
+
 curl -L https://git.io/getLatestIstio | sh -
 chmod +x $HOME/staging/istio-1.0.5/bin/istioctl
 mv /usr/local/bin/istioctl $HOME/staging/istio-1.0.5/bin/istioctl
