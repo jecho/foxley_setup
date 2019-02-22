@@ -1,12 +1,5 @@
 mkdir -p $HOME/staging
 
-# install docker
-# curl -o Docker.dmg https://download.docker.com/mac/stable/Docker.dmg
-# hdiutil attach Docker.dmg
-# cd /Volumes/Docker/
-# mv -R Docker.app /Applications/Docker.app
-# hdiutil detach /Volumes/Docker/
-
 # brew list
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo -ne '\r'
@@ -40,13 +33,15 @@ brew install weaveworks/tap/eksctl
 brew cask install slack
 brew cask install visual-studio-code
 brew cask install google-chrome
+brew cask install docker
 
 cd $HOME/staging
+mkdir -p /usr/local/bin
 
 curl -L https://git.io/getLatestIstio | sh -
 chmod +x $HOME/staging/istio-1.0.6/bin/istioctl
-mv $HOME/staging/istio-1.0.6/bin/istioctl /usr/bin/istioctl
+mv $HOME/staging/istio-1.0.6/bin/istioctl /usr/local/bin/istioctl
 
 curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/darwin/amd64/aws-iam-authenticator
 chmod +x aws-iam-authenticator
-mv aws-iam-authenticator /usr/bin/aws-iam-authenticator
+mv aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
