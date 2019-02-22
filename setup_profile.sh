@@ -9,6 +9,7 @@ mkdir -p $HOME/staging
 
 # brew list
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo -ne '\r'
 brew update
 brew install cask
 brew update
@@ -43,9 +44,9 @@ brew cask install google-chrome
 cd $HOME/staging
 
 curl -L https://git.io/getLatestIstio | sh -
-chmod +x $HOME/staging/istio-1.0.5/bin/istioctl
-mv /usr/local/bin/istioctl $HOME/staging/istio-1.0.5/bin/istioctl
+chmod +x $HOME/staging/istio-1.0.6/bin/istioctl
+mv $HOME/staging/istio-1.0.6/bin/istioctl /usr/bin/istioctl
 
 curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/darwin/amd64/aws-iam-authenticator
 chmod +x aws-iam-authenticator
-mv aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
+mv aws-iam-authenticator /usr/bin/aws-iam-authenticator
