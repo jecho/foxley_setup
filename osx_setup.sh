@@ -49,9 +49,12 @@ brew install --cask firefox-developer-edition
 brew install --cask google-chrome
 brew install --cask google-chrome-canary
 brew install --cask iterm2
+brew install --cask osxfuse
 brew install --cask pgadmin4
 brew install --cask postman
 brew install --cask slack
 brew install --cask spectacle
 brew install --cask virtualbox
 brew install --cask visual-studio-code
+
+brew install datawire/blackbird/telepresence
