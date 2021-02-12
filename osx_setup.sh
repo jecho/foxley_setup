@@ -20,6 +20,7 @@ brew install dive
 brew install git
 brew install go
 brew install golang
+brew install grpcurl
 brew install helmfile
 brew install httpie
 brew install istioctl
