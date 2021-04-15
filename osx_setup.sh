@@ -60,3 +60,4 @@ brew install --cask virtualbox
 brew install --cask visual-studio-code
 
 brew install datawire/blackbird/telepresence
+brew install stern
