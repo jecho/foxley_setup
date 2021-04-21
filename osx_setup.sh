@@ -36,6 +36,7 @@ brew install nvm
 brew install osm
 brew install watch
 brew install kustomize
+brew install stern
 brew install sops
 brew install terraform
 brew install tmux
@@ -44,6 +45,8 @@ brew install vault
 brew install weaveworks/tap/eksctl
 brew install wget
 brew install yarn
+brew install coreutils
+brew install helmfile
 
 brew install --cask docker
 brew install --cask firefox
@@ -60,4 +63,3 @@ brew install --cask virtualbox
 brew install --cask visual-studio-code
 
 brew install datawire/blackbird/telepresence
-brew install stern
