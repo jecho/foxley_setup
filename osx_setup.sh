@@ -34,6 +34,7 @@ brew install nmap
 brew install node
 brew install nvm
 brew install osm
+brew install podman
 brew install watch
 brew install kustomize
 brew install stern
