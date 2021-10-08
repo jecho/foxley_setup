@@ -17,6 +17,7 @@ brew install cfssl
 brew install ctop htop
 brew install dep
 brew install dive
+brew install etcd
 brew install git
 brew install go
 brew install golang
