@@ -29,6 +29,7 @@ brew install jq yw
 brew install kustomize
 brew install kubernetes-cli
 brew install kubernetes-helm
+brew install lima
 brew install mas
 brew install netcat
 brew install nmap
