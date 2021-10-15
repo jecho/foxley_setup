@@ -50,6 +50,8 @@ brew install wget
 brew install yarn
 brew install coreutils
 brew install helmfile
+brew install chkrootkit
+brew install rkhunter
 
 brew install --cask docker
 brew install --cask firefox
