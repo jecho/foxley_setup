@@ -1,17 +1,13 @@
 mkdir -p $HOME/staging
 
-xcode-select --install -y
-
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo -ne '\r'
 brew install cask
 brew update
 brew tap caskroom/cask
-brew tap wallix/awless
 
 brew install awscli
 brew install aws-iam-authenticator
-brew install awless
 brew install azure-cli
 brew install cfssl
 brew install ctop htop
@@ -20,7 +16,6 @@ brew install dive
 brew install etcd
 brew install git
 brew install go
-brew install golang
 brew install grpcurl
 brew install helmfile
 brew install httpie
@@ -53,7 +48,6 @@ brew install helmfile
 brew install chkrootkit
 brew install rkhunter
 
-brew install --cask docker
 brew install --cask firefox
 brew install --cask firefox-developer-edition
 brew install --cask google-chrome
