@@ -26,14 +26,15 @@ brew install kubernetes-cli
 brew install kubernetes-helm
 brew install lima
 brew install mas
+brew install mkcert
 brew install netcat
 brew install nmap
 brew install node
+brew install nss
 brew install nvm
 brew install osm
 brew install podman
 brew install watch
-brew install kustomize
 brew install stern
 brew install sops
 brew install terraform
