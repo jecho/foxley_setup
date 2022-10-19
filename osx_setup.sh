@@ -16,6 +16,7 @@ brew install dive
 brew install etcd
 brew install git
 brew install go
+brew install rust
 brew install grpcurl
 brew install helmfile
 brew install httpie
