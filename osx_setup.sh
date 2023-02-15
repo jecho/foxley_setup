@@ -11,6 +11,7 @@ brew install aws-iam-authenticator
 brew install azure-cli
 brew install cfssl
 brew install ctop htop
+brew install dapr/tap/dapr-cli
 brew install dep
 brew install dive
 brew install etcd
