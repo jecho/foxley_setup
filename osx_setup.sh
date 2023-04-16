@@ -65,4 +65,4 @@ brew install --cask virtualbox
 brew install --cask visual-studio-code
 
 brew install datawire/blackbird/telepresence
-brew install MonitorControl
+brew install --cask eqmac
