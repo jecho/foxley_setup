@@ -29,6 +29,7 @@ brew install kubernetes-helm
 brew install lima
 brew install mas
 brew install mkcert
+brew install neovim
 brew install netcat
 brew install nmap
 brew install node
