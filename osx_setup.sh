@@ -52,6 +52,7 @@ brew install helmfile
 brew install chkrootkit
 brew install rkhunter
 brew install bat
+brew install ripgrep
 
 brew install --cask firefox
 brew install --cask firefox-developer-edition
