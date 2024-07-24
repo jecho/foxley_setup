@@ -53,6 +53,7 @@ brew install chkrootkit
 brew install rkhunter
 brew install bat
 brew install ripgrep
+brew install hidetatz/tap/kubecolor
 
 brew install --cask firefox
 brew install --cask firefox-developer-edition
