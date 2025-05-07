@@ -72,3 +72,5 @@ brew install --cask visual-studio-code
 
 brew install datawire/blackbird/telepresence
 brew install --cask eqmac
+
+cargo install flamelens --locked
